@@ -1,0 +1,46 @@
+.main-container {
+  height: 100%;
+  width: 100%;
+
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: rgb(253,71,1);
+  width: 100%;
+  justify-content: space-around;
+  justify-items: center;
+  font-size: medium;
+  border-radius: 5px;
+ 
+}
+
+.logo img {
+  width: 50px;
+}
+
+.Home,
+
+.About,
+.Impact,
+.Volunteer,
+.News,
+.Contact {
+    margin-top: 5px;
+ padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 20px;
+  
+}
+
+.nav-bar a{
+text-decoration: none;
+color: green;
+}
+
+.nav-bar a:hover{
+    text-decoration: white;
+    color: white;
+    }
